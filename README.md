@@ -1,4 +1,4 @@
-<H1> Titulo del proyecto: Dataset de ventas simuladas./H1>
+<H1> Titulo del proyecto: Dataset de ventas simuladas.</H1>
 
 <H2>Escenario elegido</H2>
 Se eligio el escenario Dataset de ventas simuladas. Punto 10.3 en la pagina 8 del TP. Se utilizo el dataset provisto para hacer un analisis en el cual se muestra: 
@@ -16,6 +16,8 @@ El data set contiene 3 columnas: <b>ID, sales_date, sales_amount</b>. Las column
 Analizar los datos provistos por el CSV para transformarlos en informacion relevante que pueda ser utilizada para tomar decisiones.
 
 <H2>Integrantes del equipo</H2>
-- Hugo
-- Luis
-- Paco
+<ul>
+  <li><Hugo/li>
+  <li>Luis</li>
+  <li>Paco</li>
+</ul>
