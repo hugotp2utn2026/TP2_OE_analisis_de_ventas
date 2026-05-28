@@ -17,7 +17,7 @@ Analizar los datos provistos por el CSV para transformarlos en informacion relev
 
 <H2>Integrantes del equipo</H2>
 <ul>
-  <li><Hugo/li>
+  <li><Hugo</li>
   <li>Luis</li>
   <li>Paco</li>
 </ul>
