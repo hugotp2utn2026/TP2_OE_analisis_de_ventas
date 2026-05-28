@@ -15,6 +15,17 @@ El data set contiene 3 columnas: <b>ID, sales_date, sales_amount</b>. Las column
 <H2>Objetivo</H2>
 Analizar los datos provistos por el CSV para transformarlos en informacion relevante que pueda ser utilizada para tomar decisiones.
 
+<H2>Como usar este repositorio</H2>
+<ol>
+  <li>Clonar el repositorio</li>
+  <li>Ejecutar los scripts provistos</li>
+  <li>Al ejecutar el script se generaran:</li>
+  <ul>
+    <li>Grafico de ventas por mes</li>
+    <li>Informacion sobre numero de ventas totales en consola</li>
+  </ul>
+</ol>
+
 <H2>Integrantes del equipo</H2>
 <ul>
   <li>Hugo</li>
