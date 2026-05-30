@@ -2,6 +2,8 @@ import csv
 with open("../datos/sales_sample_2024.csv", "r") as archivo:
     #Uso DictReader porque ignora la primera fila automaticamente.
     lector_dict = csv.DictReader(archivo)
+    #Creo una variable con el total de cada mas, luego utilizo ese resultado como el value y el mes como la key, para saber que el me sea el correcto se usa string slicing
+    # Este string slicing toma el mes.
     total_por_mes = dict()
     total_enero = 0
     total_febrero = 0
@@ -53,10 +55,11 @@ with open("../datos/sales_sample_2024.csv", "r") as archivo:
         total_diciembre += float(elemento["sales_amount"])
         total_por_mes["diciembre"] = total_diciembre
     print(total_por_mes)
-  
-with open("../resultados/ventas_por_mes.csv", "w") as archivo:
-  #Creo los headers de cada columna
+
+#Creo el archivo csv con los totales de las ventas de cada mes
+with open("../resultados/resultados_ejemplo.csv", "w") as archivo:
+  #Creo los headers de cada columna con un salto de linea al final
   archivo.write("mes,total\n")
-  #cada fila es un mes con su valor
+  #cada fila es un mes con su valor correspondiente, esto utiliza el dictionary creado en la parte anterior del codigo, la key es el mes, el value el total por mes, y lo escribe siendo cada linea un mes
   for key,value in total_por_mes.items():
     archivo.write(f"{key},{value}\n")
